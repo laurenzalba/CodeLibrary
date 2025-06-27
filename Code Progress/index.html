@@ -3,22 +3,89 @@ Online HTML, CSS and JavaScript editor to run code online.
 -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeLibrary</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>
-    Write, edit and run HTML, CSS and JavaScript code online.
-  </h1>
-  <p>
-    Our HTML editor updates the webview automatically in real-time as you write code.
-  </p>
-  <script src="script.js"></script>
-</body>
+  
+  <nav>
+    <div class="logo">CodeLibrary</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">C++</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+    <button class="sign-in">Sign in</button>
+  </nav>
 
+  
+  <section class="hero">
+    <h1>A Web-Based Resource Hub for C++ and Web Development</h1>
+    <p>Using HTML, CSS, and JavaScript</p>
+    <input type="text" placeholder="Search our tutorial, e.g. HTML">
+  </section>
+
+  
+  <section class="collections">
+    <h2>Collections</h2>
+    <div class="cards">
+      <div class="card"><img src="html.png" alt="HTML"><p>HTML</p></div>
+      <div class="card"><img src="css.png" alt="CSS"><p>CSS</p></div>
+      <div class="card"><img src="js.png" alt="JS"><p>JavaScript</p></div>
+    </div>
+  </section>
+
+ 
+  <section class="about">
+    <h2>About Code Library</h2>
+    <div class="about-content">
+      <img src="team.jpg" alt="Team Photo">
+      <div>
+        <p>We are a group of passionate students and aspiring developers committed to making web development accessible to everyone.</p>
+        <ul>
+          <li>Empower beginners with quality resources</li>
+          <li>Create an organized hub for learning</li>
+          <li>Foster a supportive environment</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="contact">
+    <h2>Reach out to us</h2>
+    <p>It's as simple as saying "Hello"</p>
+    <div class="contact-info">
+      <div>
+        <h3>Enquiries – MAIN HQ</h3>
+        <p>📞 +60123456789</p>
+        <p>✉️ business@asciicom.com.my</p>
+      </div>
+      <div>
+        <h3>Enquiries – BRANCH</h3>
+        <p>📞 +60123456789</p>
+        <p>✉️ support@asciicom.com.my</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="signup">
+    <form>
+      <h2>Sign up</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Create Account</button>
+    </form>
+  </section>
+</body>
 </html>
